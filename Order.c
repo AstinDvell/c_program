@@ -33,6 +33,7 @@ void insertOrder(int a[],int length)
         temp=a[i];
         a[i]=a[minIndex];
         a[minIndex]=temp;
+        
     }
 }
 void insertOrderByPointer(int a[],int length)
